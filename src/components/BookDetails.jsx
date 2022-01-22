@@ -15,8 +15,8 @@ const BookDetails = props => {
     const { author } = book;
     return (
         <div id='book-details'>
-            <p>Book Name: {book.name}</p>
-            <p>Book Genre: {book.genre}</p>
+            <h1>{book.name}</h1>
+            <p>Genre: {book.genre}</p>
             <p>Author: {author.name}</p>
             <p>Author Age: {author.age}</p>
             <p>All books by this author:</p>
